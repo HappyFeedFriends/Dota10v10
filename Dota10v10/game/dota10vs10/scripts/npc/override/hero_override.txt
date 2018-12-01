@@ -1,0 +1,11 @@
+""
+{
+	"npc_dota_hero_lion"
+	{
+		"IsUpgrade"						"1"
+		"Ability1"						"lion_New_EarthSpike"
+		"Ability2"						"lion_New_Hex"
+		"Ability3"						"lion_New_ManaDrain"
+		"Ability6"						"lion_New_FingerOfDeath"
+	}
+}

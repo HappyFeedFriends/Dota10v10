@@ -1,0 +1,91 @@
+"lang"
+{
+	"Language"		"Russian"
+	"Tokens"
+	{		
+		
+		//*************************************************************
+		// HUD ERRORS
+		//*************************************************************
+		
+		"hud_error_not_enought_gold"	"Не достаточно золота"
+		"hud_error_inventory_full" 		"Инвентарь переполнен"
+		"hud_error_picking_hero"		"Данный герой уже выбран вами"
+		
+		//*************************************************************
+		// Custom Toast
+		//*************************************************************
+		
+		"custom_toast_PlayerDeniedSelf" 		"{killer_name} {denied_icon} не отдаётся врагу" 
+		"custom_toast_PlayerDenied" 			"{killer_name} {denied_icon} не отдаёт врагу {victim_name}"		
+		"custom_toast_killed_streak"			"{killer_name} {killed_icon} {victim_name} Серия из {kill_streak} убийств прервана {gold} "
+		
+		"custom_toast_courier" 					"Курьер"
+		"custom_toast_hero"						"игрока"
+		"custom_toast_heroes"					"игроков"
+
+		//*************************************************************
+		// HeroSelection
+		//*************************************************************
+		
+		"playing_hero"							"Играть за"
+		"repick_hero"							"Поменять героя"
+		"stage_picking_hero"					"Стадия выбора героя"
+		"stage_selection_hero"					"Информация о герое"
+		"IsUpgrade"								"Upgrade"
+		
+		//*************************************************************
+		// Ability Localization
+		//*************************************************************
+		
+		"Dota_tooltip_modifier_hex_bh"							"Изменён"
+		"Dota_tooltip_modifier_hex_bh_description"				"Вы превращены в безобидное животное,ваша скорость уменьшена, и вы не можете ничего делать."
+		
+		"Dota_tooltip_ability_lion_New_EarthSpike"				"Earth Spike"
+		"Dota_tooltip_ability_lion_New_EarthSpike_description"	"Из земли прорывается полоса каменных шипов. Они подбрасывают врагов в воздух, а по приземлении оглушают их и наносят урон. \n <font color='orange'> NEW: </font><br> При попадании во вражеского героя, Earth Spike в радиусе %radius% ед. направляется в ближайшую цель,получающую такой же эффект,что и первая цель способности."
+		"Dota_tooltip_ability_lion_New_EarthSpike_duration"		"ДЛИТЕЛЬНОСТЬ:"
+		"Dota_tooltip_ability_lion_New_EarthSpike_damage"		"УРОН:"
+		"Dota_tooltip_ability_lion_New_EarthSpike_distance"		"ДАЛЬНОСТЬ:"
+		"Dota_tooltip_ability_lion_New_EarthSpike_count_target"	"КОЛИЧЕСТВО ЦЕЛЕЙ:"
+		
+		"Dota_tooltip_ability_lion_New_Hex"						"HEX"
+		"Dota_tooltip_ability_lion_New_Hex_description"			"Превращает врага в безобидную зверюшку, блокируя все его способности.\n <font color='orange'> NEW: </font><br> Вражеский герой под действием данного эффекта получает дополнительный урон( к любому урон ),теряет % скорости передвижения  и теряет часть брони."
+		"Dota_tooltip_ability_lion_New_Hex_duration"			"ДЛИТЕЛЬНОСТЬ:"
+		"Dota_tooltip_ability_lion_New_Hex_SlowMove"			"%ЗАМЕДЛЕНИЕ:"
+		"Dota_tooltip_ability_lion_New_Hex_bonus_damage"		"ДОПОЛНИТЕЛЬНЫЙ УРОН:"
+		"Dota_tooltip_ability_lion_New_Hex_reduction_armor"		"УМЕНЬШЕНИЕ БРОНИ:"
+		"Dota_tooltip_modifier_hex_debuff"						"HEX"
+		
+		"Dota_tooltip_ability_lion_New_ManaDrain"		 			"Mana Drain"
+		"Dota_tooltip_ability_lion_New_ManaDrain_description"		"<font color='orange'> NEW: </font><br> Способность изменена с активной в пассивную. <br> В небольшом радиусе от Лиона,все вражеские герои отдаю часть своей маны и получают замедление. При атаке от вражеского юнита,атакующий получает небольшое оглушение"
+		"Dota_tooltip_ability_lion_New_ManaDrain_mana_per_second" 	"МАНА В ТИК:"
+		"Dota_tooltip_ability_lion_New_ManaDrain_radius" 			"РАДИУС:"
+		"Dota_tooltip_ability_lion_New_ManaDrain_movespeed" 		"%ЗАМЕДЛЕНИЕ:"
+		"Dota_tooltip_ability_lion_New_ManaDrain_stunned_duration" 	"ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
+		"Dota_tooltip_ability_lion_New_ManaDrain_stunned_delay" 	"ПЕРЕЗАРЯДКА ОГЛУШЕНИЯ:"
+		"Dota_tooltip_modifier_lion_mana_drain_new_debuff_new"		"Потеря маны"
+		
+		"Dota_tooltip_ability_lion_New_FingerOfDeath"							"Finger Of Death"
+		"Dota_tooltip_ability_lion_New_FingerOfDeath_Lore"						"Изувеченная рука демонолога является источником его великой силы, способной утопить жертв колдовской мощью."
+		"Dota_tooltip_ability_lion_New_FingerOfDeath_description"				"Разрывает вражеское существо, пытаясь вывернуть его наизнанку. Наносит большой урон, который увеличивается с каждым убитым этой способностью врагом.\n <font color='orange'> NEW: </font><br> Изменён эффект Aghanim's Scepter.<br> Если цель способности находится под эффектом от способности <font color='red'> 'HEX' </font>,длительность эффекта увеличивается на %bonus_time% сек. \nУлучшается с Aghanim's Scepter."
+		"Dota_tooltip_ability_lion_New_FingerOfDeath_damage"					"УРОН:"
+		"Dota_tooltip_ability_lion_New_FingerOfDeath_damage_per_kill"			"УРОН ЗА УБИЙСТВО:"
+		"Dota_tooltip_ability_lion_New_FingerOfDeath_reduction_resistance"		"%УМЕНЬШЕНИЕ МАГ.РЕЗИСТА:"
+		"Dota_tooltip_ability_lion_New_FingerOfDeath_reduction_duration"		"ДЛИТЕЛЬНОСТЬ:"
+		"Dota_tooltip_ability_lion_New_FingerOfDeath_scepter_radius"			"РАДИУС:"
+		"Dota_tooltip_ability_lion_New_FingerOfDeath_scepter_count_hero"		"ДОПОЛНИТЕЛЬНО ЦЕЛЕЙ:"
+		"Dota_tooltip_ability_lion_New_FingerOfDeath_scepter_procentage_damage"	"%УРОН ДОПОЛНИТЕЛЬНЫМ ЦЕЛЯМ:"
+		
+		"Dota_tooltip_ability_lion_New_FingerOfDeath_aghanim_description"		"Способность дополнительно наносит урон юнитам находящимся в радиусе,дополнительные цели получают меньше урона."
+		"Dota_tooltip_modifier_lion_fingerOfDeath_hidden"						"Finger Of Death"
+		"Dota_tooltip_modifier_lion_fingerOfDeath_hidden_description"			"Каждое убийство вражеского героя увеличивает урон от способности <font color='red'> 'Finger Of Death' </font> на 50"
+	
+		"Dota_tooltip_ability_special_bonus_new_lion_1"							"Дополнительный урон под эффектом от 'HEX'"
+		"Dota_tooltip_ability_special_bonus_new_lion_1_description"				"Герой под действием негативного эффекта от HEX получает на %value%%% больше урона (дополнительно)"
+		"Dota_tooltip_ability_special_bonus_new_lion_2"							"+%value% маны в тик от способности Mana Drain"
+		"Dota_tooltip_ability_special_bonus_new_lion_3"							"+%value% к урону от Earth Spike"
+		"Dota_tooltip_ability_special_bonus_new_lion_4"							"+%value% к урону за убитого героя от способности Finger Of Death"
+		"Dota_tooltip_ability_special_bonus_new_lion_5"							"+%value% к длительности оглушения от способности Mana Drain"
+		"Dota_tooltip_ability_special_bonus_new_lion_6"							"+%value%%% к урону от Finger of Death дополнительным целям." 
+	}	
+}
